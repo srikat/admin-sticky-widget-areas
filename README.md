@@ -2,11 +2,11 @@
 
 A simple plugin to make the widget areas on the right side at /wp-admin/widgets.php sticky so they always remain in view when scrolling up/down.
 
-![Screenshot](http://d.pr/i/09kLkv+)
+![Screenshot](https://d1ax1i5f2y3x71.cloudfront.net/items/1G2K0e1S033G2b1l2v0p/Screen%20Recording%202017-12-04%20at%2007.26%20pm.gif?X-CloudApp-Visitor-Id=101397&v=af7ab040)
 
 ## Screencast
 
-[https://cloudup.com/cE6zrybaNOF](https://cloudup.com/cE6zrybaNOF)
+[https://cl.ly/332g0z1f0s3h](https://cl.ly/332g0z1f0s3h)
 
 ## Installation
 
@@ -20,7 +20,7 @@ A simple plugin to make the widget areas on the right side at /wp-admin/widgets.
 * Initial Release
 
 ### 1.0.1
-* Fixed the missing `$hook` parameter being passed to the function
+* Took care of the missing `$hook` parameter being passed to the function
 
 ## Others
 
