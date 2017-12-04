@@ -3,7 +3,7 @@
  * Plugin Name: Admin Sticky Widget Areas
  * Plugin URI: https://github.com/srikat/Admin-Sticky-Widget-Areas
  * Description: A simple plugin to make the widget areas on the right side at /wp-admin/widgets.php sticky so they always remain in view when scrolling up/down.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: Sridhar Katakam
  * Author URI: https://sridharkatakam.com/
  * License:           GPL-2.0+
@@ -27,7 +27,7 @@ add_action( 'admin_enqueue_scripts', 'custom_admin_widgets_stylesheet' );
 /**
  * Load style.css on the WordPress widgets page in the backend.
  */
-function custom_admin_widgets_stylesheet() {
+function custom_admin_widgets_stylesheet( $hook ) {
 	if ( 'widgets.php' !== $hook ) {
 		return;
 	}
